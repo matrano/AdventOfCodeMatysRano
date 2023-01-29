@@ -1,6 +1,5 @@
 package dataStorage;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -15,7 +14,7 @@ import java.awt.event.MouseMotionAdapter;
 import java.awt.event.MouseEvent;
 
 public class InitializationTest extends JFrame {
-
+	private static final long serialVersionUID = -2563751728245925034L;
 	private JPanel contentPane;
 	private static HashMap<String, String> initializationDict = new HashMap<String, String>();
 
@@ -36,6 +35,7 @@ public class InitializationTest extends JFrame {
         	
         	line = in.readLine();
         }
+        in.close();
 		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {

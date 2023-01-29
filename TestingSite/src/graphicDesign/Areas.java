@@ -20,6 +20,7 @@ import java.util.HashMap;
 import javax.swing.JPanel;
 
 public class Areas extends JPanel {
+	private static final long serialVersionUID = 4167561313317672175L;
 	public int mouseX;
 	public int mouseY;
 	public int collision = 0;
