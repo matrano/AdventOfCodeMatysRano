@@ -60,7 +60,7 @@ public class Day9Part1 {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) throws IOException {
 		BufferedReader in;   
-        in = new BufferedReader(new FileReader("C:\\Users\\matys\\WorkspaceApplication\\AdventOfCode\\Year2022\\src\\ressources\\InputDay9Of2022"));
+        in = new BufferedReader(new FileReader(System.getProperty("user.dir") + "\\src\\ressources\\InputDay9Of2022"));
         String line = in.readLine();
         
         posHeadAroundTail[1][1] = 1;

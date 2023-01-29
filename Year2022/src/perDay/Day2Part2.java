@@ -14,7 +14,7 @@ public class Day2Part2 {
         char opponentChoice;
         char outcome;
      
-        in = new BufferedReader(new FileReader("C:\\Users\\matys\\WorkspaceApplication\\AdventOfCode\\Year2022\\src\\ressources\\InputDay2Of2022"));
+        in = new BufferedReader(new FileReader(System.getProperty("user.dir") + "\\src\\ressources\\InputDay2Of2022"));
         line = in.readLine();
         
         String[] guide = new String[2];

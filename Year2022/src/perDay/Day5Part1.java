@@ -24,7 +24,7 @@ public class Day5Part1 {
 	
 	public static void main(String[] args) throws IOException {
 		BufferedReader in;
-        in = new BufferedReader(new FileReader("C:\\Users\\matys\\WorkspaceApplication\\AdventOfCode\\Year2022\\src\\ressources\\InputDay5Of2022"));
+        in = new BufferedReader(new FileReader(System.getProperty("user.dir") + "\\src\\ressources\\InputDay5Of2022"));
         String line = in.readLine();
         
         int numberColumns = (line.length() - 3) / 4 + 1;

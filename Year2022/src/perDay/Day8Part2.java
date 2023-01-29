@@ -68,7 +68,7 @@ public class Day8Part2 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader in;   
-        in = new BufferedReader(new FileReader("C:\\Users\\matys\\WorkspaceApplication\\AdventOfCode\\Year2022\\src\\ressources\\InputDay8Of2022"));
+        in = new BufferedReader(new FileReader(System.getProperty("user.dir") + "\\src\\ressources\\InputDay8Of2022"));
         String str = in.readLine();
         
         // Initialize forestMap

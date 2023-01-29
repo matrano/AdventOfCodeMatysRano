@@ -32,7 +32,7 @@ public class Day3Part2 {
         String line2;
         String line3;
      
-        in = new BufferedReader(new FileReader("C:\\Users\\matys\\WorkspaceApplication\\AdventOfCode\\Year2022\\src\\ressources\\InputDay3Of2022"));
+        in = new BufferedReader(new FileReader(System.getProperty("user.dir") + "\\src\\ressources\\InputDay3Of2022"));
         String line = in.readLine();
 
         char common;

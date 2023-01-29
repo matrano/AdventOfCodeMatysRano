@@ -24,8 +24,8 @@ public class InitializationTest extends JFrame {
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
-		BufferedReader in;   
-        in = new BufferedReader(new FileReader("C:\\Users\\matys\\WorkspaceApplication\\AdventOfCode\\TestingSite\\src\\ressources\\Initialization"));
+		BufferedReader in; 
+        in = new BufferedReader(new FileReader(System.getProperty("user.dir") + "\\src\\ressources\\Initialization"));
         String line = in.readLine();
         
         while (line != null) {

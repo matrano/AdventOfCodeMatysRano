@@ -62,7 +62,7 @@ public class Day7Part1 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader in;   
-        in = new BufferedReader(new FileReader("C:\\Users\\matys\\WorkspaceApplication\\AdventOfCode\\Year2022\\src\\ressources\\InputDay7Of2022"));
+        in = new BufferedReader(new FileReader(System.getProperty("user.dir") + "\\src\\ressources\\InputDay7Of2022"));
         String line = in.readLine();
         directoryList.add("/");
         

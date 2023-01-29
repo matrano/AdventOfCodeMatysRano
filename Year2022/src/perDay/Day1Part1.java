@@ -19,7 +19,7 @@ public class Day1Part1 {
         
         ArrayList<Integer> listOfElfs = new ArrayList<Integer>(Collections.nCopies(10, 0));
 
-        in = new BufferedReader(new FileReader("C:\\Users\\matys\\WorkspaceApplication\\AdventOfCode\\Year2022\\src\\ressources\\InputDay1Of2022"));
+        in = new BufferedReader(new FileReader(System.getProperty("user.dir") + "\\src\\ressources\\InputDay1Of2022"));
         String line = in.readLine(); 
 
         do {	

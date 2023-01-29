@@ -34,7 +34,7 @@ public class Day4Part2 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader in;
-        in = new BufferedReader(new FileReader("C:\\Users\\matys\\WorkspaceApplication\\AdventOfCode\\Year2022\\src\\ressources\\InputDay4Of2022"));
+        in = new BufferedReader(new FileReader(System.getProperty("user.dir") + "\\src\\ressources\\InputDay4Of2022"));
         String line = in.readLine();
 
         int nbrPairContained = 0;  

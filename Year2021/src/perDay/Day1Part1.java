@@ -15,7 +15,7 @@
 //        
 //        int counter = 0;
 //        
-//        in = new BufferedReader(new FileReader("C:\\Users\\matys\\WorkspaceApplication\\AdventOfCode\\Year2021\\src\\ressources\\InputDay1Of2021"));
+//        in = new BufferedReader(new FileReader(System.getProperty("user.dir") + "\\src\\ressources\\InputDay1Of2021"));
 //        line = in.readLine(); 
 //        int curValue = Integer.parseInt(line);
 //
